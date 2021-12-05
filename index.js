@@ -165,7 +165,7 @@ function appMenu() {
 
     ]).then(answers => {
       // create an engineer object from class Engineer
-      let enginner = new Engineer(answers.enginnerName, answers.enginnerId, answers.enginnerEmail, answers.enginnerGithub);
+      let enginner = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub);
       // add the engineer object to teamMembers
       teamMembers.push(enginner);
       // add engineer id to idArray
